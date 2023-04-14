@@ -23,7 +23,7 @@ class BaseCase:
 
         return response_as_dict[name]
 
-    def prepare_registration_date(self, email=None):
+    def prepare_registration_date(self, email=None) -> dict:
         if email is None:
             base_part = "learnqa"
             domain = "example.com"
