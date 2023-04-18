@@ -1,4 +1,3 @@
-# PR-1
 from json import JSONDecodeError
 
 import requests
